@@ -8,9 +8,11 @@
   padding: 20px;
   border-radius: 10px;
   border: none;
+  background-color: #341f97;
 }
 a{
   text-decoration: none;
+  color: white;
 }
 
 :root{
@@ -87,7 +89,7 @@ ul li{
 /* Header area ends here */
 
 
-/* -----------main menu starts here---------- */
+/* ------------------------------main menu starts here---------- */
 .main_menu{
   margin-top: 20px;
   padding: 20px;
@@ -124,7 +126,7 @@ ul li{
 
 /* main menu ends here */
 
-/* -----------Here section starts here ---------*/
+/* ------------------------------Here section starts here ---------*/
 
 .container{
   width: 100%;
@@ -167,7 +169,7 @@ ul li{
 
 /* Here section ends here */
 
-/* --------Service area starts here ------- */
+/* -------------------------------Service area starts here ------- */
 
 .service_heading{
   margin-top: 40px;
@@ -186,7 +188,7 @@ ul li{
 }
 .service_grid div{
   padding: 50px;
-  background-color: aqua;
+  background-color: #c7ecee;
 }
 
 .service-1 p{
@@ -195,10 +197,152 @@ ul li{
   justify-content: center;
   font-size: 40px;
   margin-bottom: 10px;
+  color: #0abde3;
+}
+.service-2 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #0abde3;
+}
+.service-3 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #0abde3;
+}
+.service-4 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #0abde3;
+}
+.service-5 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #0abde3;
+}
+.service-6 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #0abde3;
 }
 .service-1 button{
   margin-left: 20px;
   margin-top: 20px;
+  border-radius: 0%;
+}
+.service-2 button{
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 0%;
+}
+.service-3 button{
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 0%;
+}
+.service-4 button{
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 0%;
+}
+.service-5 button{
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 0%;
+}
+.service-6 button{
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 0%;
+}
+
+.service_container{
+  margin-bottom: 20px;
+}
+.service_grid div:hover{
+  background-color: #130f40;
+  transition: 1s;
+  color: white;
 }
 
 /* Service area ends here */
+
+/*------------------------------ Contact form starts here---------------- */
+#contact_section{
+  background-color: #c7ecee;
+  width: 1000px;
+  margin-left: 19%;
+  margin-top: 50px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+
+.contact_section{
+  margin: 40px;
+  
+}
+.map iframe{
+  width: 400pX;
+  height: 300px;
+  margin-left: 50px;
+}
+.conatct-label{
+  font-size: larger;
+  font-weight: bold;
+  color: #341f97;
+}
+.contact-input{
+  width: 300px;
+  height: 40px;
+}
+.contact-input1{
+  margin-left: 30px;
+}
+.contact-input2{
+  margin-left: 15px;
+}
+.contact-input3{
+  margin-left: 29px;
+}
+.contact-input4{
+  margin-left: 10px;
+}
+.contact_btn{
+  margin-left: 180px;
+  padding: 20px;
+  background-color: #341f97;
+  border: 0%;
+}
+.contact_btn:hover{
+  background-color: #130f40;
+  transition: 1s;
+}
+/* Contact form ends here */
+
+/* ------------------------Footer section starts here----------------- */
+.footer_section{
+  width: 100%;
+  height: 5vh;
+  background-color: #341f97;
+}
+.footer_section p{
+  color: white;
+  padding: 10px;
+  text-align: end;
+}
+/* Footer section ends here */
