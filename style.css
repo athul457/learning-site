@@ -1,0 +1,191 @@
+/* Basic css style starting */
+*,::after,::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.btn{
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+}
+a{
+  text-decoration: none;
+}
+
+:root{
+  --background:#c8d6e5 ;
+  --primary-color:#0abde3;
+  --dark-theme:#341f97;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Oswald", serif;
+}
+p{
+  font-family: "Raleway", serif;
+}
+body{
+  background-color: var(--background);
+}
+ul li{
+  list-style: none;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Basic css style ending */
+
+/*------- Header area starts here --------*/
+.header_main{
+  background-color: var(--dark-theme);
+}
+.header_main-sec1{
+  flex-basis: 40%;
+  margin-left: 90px;
+}
+.header_main-sec1 p{
+  margin-left: 10px;
+  color: white;
+}
+.header_main-sec2{
+  flex-basis: 60%;
+  margin-left: 400px;
+  padding: 15px;
+}
+.header_main-sec2 li {
+  display: inline-block;
+  margin: 5px 20px 5px 20px;
+  border-radius: 30px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: larger;
+  width: 38px;
+  height: 40px;
+  background-color: #130f40;
+  transform: translate();
+}
+.header_main-sec2 a{
+  color: white;
+}
+.header_main-sec2 a:hover{
+  /* color: black;
+  background-color: #c8d6e5;
+  padding: 5px;
+  border-radius: 30px; */
+}
+.header_main-sec2 li:hover{
+  background-color: #130f40;
+  transition: .5s;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Header area ends here */
+
+
+/* -----------main menu starts here---------- */
+.main_menu{
+  margin-top: 20px;
+  padding: 20px;
+}
+.main_logo{
+  flex-basis: 40%;
+  margin-left: 150px;
+  font-size: larger;
+}
+.main_logo a{
+  color: black;
+}
+.main_menu-items{
+  flex-basis: 60%;
+  margin-left: 350px;
+}
+.main_menu-items li{
+  display: inline-block;
+  /* margin: 20px 20px 20px 20px; */
+  margin-left: 18px;
+  font-weight: bold;
+  font-size: large;
+  /* text-transform: uppercase; */
+}
+.main_menu-items li:hover{
+  text-decoration: underline;
+}
+.main_menu-items i{
+  display: none;
+}
+.main_menu-items a{
+  color: black;
+}
+
+/* main menu ends here */
+
+/* -----------Here section starts here ---------*/
+
+.container{
+  width: 100%;
+  background-color:#c7ecee;
+  margin-top: 40px;
+}
+.hero_text button{
+  margin-top: 20px;
+  color: black;
+  background-color: #341f97;
+  transform: translate();
+  border-radius: 0px;
+}
+.hero_text button:hover{
+  background-color: #130f40;
+  transition: 1s;
+}
+.hero_text{
+  flex-basis: 60%;
+  margin-left: 100px;
+}
+.hero_image{
+  flex-basis: 40%;
+  margin: 10px 10px 10px 10px;
+}
+.hero_text a{
+  color: white;
+}
+.hero_text p{
+  text-align: justify;
+}
+.hero_text h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.hero_image img{
+  width: 600px;
+  height: 300px;
+}
+
+/* Here section ends here */
+
+/* --------Service area starts here ------- */
+
+.service_heading{
+  margin-top: 40px;
+}
+.service_heading h1{
+  text-transform: uppercase;
+}
+.service_container{
+  margin-top: 40px;
+}
+.service_grid{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 3rem;
+}
+.service_grid div{
+  padding: 100px;
+  background-color: aqua;
+}
+
+/* Service area ends here */
