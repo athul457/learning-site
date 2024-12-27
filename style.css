@@ -177,6 +177,7 @@ ul li{
 }
 .service_container{
   margin-top: 40px;
+  margin-right: 20px;
 }
 .service_grid{
   display: grid;
@@ -184,8 +185,20 @@ ul li{
   gap: 3rem;
 }
 .service_grid div{
-  padding: 100px;
+  padding: 50px;
   background-color: aqua;
+}
+
+.service-1 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.service-1 button{
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 /* Service area ends here */
